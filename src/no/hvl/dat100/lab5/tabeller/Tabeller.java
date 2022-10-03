@@ -10,7 +10,6 @@ public class Tabeller {
 		}
 		System.out.print("]");
 		
-		//throw new UnsupportedOperationException("skrivUt ikke implementert"); 
 	}
 
 	// b)
@@ -28,7 +27,6 @@ public class Tabeller {
 		tabellTxt += "]";
 		System.out.println(tabellTxt); 
 		return tabellTxt;
-		//throw new UnsupportedOperationException("tilStreng ikke implementert");
 		
 	}
 
@@ -56,7 +54,7 @@ public class Tabeller {
 		System.out.println(sumFor + " " + sumWhile + " " + sumUtFor);
 		
 		return sumFor;
-		//throw new UnsupportedOperationException("summer ikke implementert");
+	
 	}
 
 	// d)
@@ -70,7 +68,7 @@ public class Tabeller {
 			}
 		}
 		return inTab;
-		//throw new UnsupportedOperationException("finnesTall ikke implementert");
+	
 	}
 
 	// e)
@@ -96,7 +94,7 @@ public class Tabeller {
 			i = -1;
 		
 		return i;
-		//throw new UnsupportedOperationException("posisjonTall ikke implementert");
+
 
 	}
 
@@ -115,7 +113,7 @@ public class Tabeller {
 			
 		}
 		return newTab;
-		//throw new UnsupportedOperationException("reverser ikke implementert");
+
 		
 	}
 
@@ -131,7 +129,7 @@ public class Tabeller {
 				
 		}
 		return sortert;
-		//throw new UnsupportedOperationException("erSortert ikke implementert");
+
 	}
 
 	// h)
@@ -152,6 +150,6 @@ public class Tabeller {
 		}
 		
 		return tab;
-		//throw new UnsupportedOperationException("settSammen ikke implementert");
+
 	}
 }
